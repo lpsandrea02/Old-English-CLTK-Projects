@@ -71,7 +71,7 @@ class Line:
             #Establish baseword for alliteration
             #all words beginning with prefixed ge-, be-, for- are stressed on 2nd syllable
             #non-exhaustive rudimentary filtering of compounds e.g. 'gear', 'geomor' - but also incorrectly filters out 'geascian' etc. 
-            if word.startswith(('ge','be','for')) and word[2] not in ('a', 'o'): 
+            if word.startswith(('ge', 'ġe', 'be','for')) and len(word)>2 and word[2] not in ('a', 'o'): 
                 baseword=word[2:]
             #verbs & adverbs are usually not stressed on selected prefixes
             elif word.startswith(verb_prefixes) and postag.startswith(('V','D')):
@@ -187,4 +187,4 @@ sent1="sigor ond sōðne ġelēafan  þæt iċ mid þȳs sweorde mōte"
 sent2="swa wynlic wæs his wæstm on heofonum þæt him com from weroda drihtne"
 
 AlliterateLine(sent1)
-AlliterateText() #e.g. Genesis_B.txt
+AlliterateText() #e.g. text_samples/Genesis_B.txt
