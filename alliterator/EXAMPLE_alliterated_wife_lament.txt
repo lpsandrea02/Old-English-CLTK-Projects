@@ -1,0 +1,115 @@
+#Example analysis with error in line 11 (to- prefix not detected)
+>>AlliterateLine(sent1)
+sigor ond sōðne ġelēafan  þæt iċ mid þȳs sweorde mōte
+[['sigor', 'sōðne', 'sweorde']]
+Alliteration count: 3
+
+>>AlliterateText()
+>>Enter filename:text_samples/wife_lament.txt
+no.  line
+0    iċ þis ġiedd wrece     bi mē ful ġeōmorre
+     [['iċ', 'ġeōmorre']] 2
+1    mīnre sylfre sīð     iċ þæt secgan mæġ
+     [['sylfre', 'sīð', 'secgan'], ['mīnre', 'mæġ']] 5
+2    hwæt iċ yrmþa ġebād     siþþan iċ ūp wēox
+     [['iċ', 'yrmþa', 'iċ', 'ūp']] 4
+3    nīwes oþþe ealdes     nō mā þonne nū
+     [['nīwes', 'nō', 'nū']] 3
+4     ā iċ wīte wonn     mīnra wræcsīþa
+     [['wīte', 'wonn', 'wræcsīþa'], ['ā', 'iċ']] 5
+5    ǣrest mīn hlāford ġewāt     heonan of lēodum
+     [['hlāford', 'heonan']] 2
+6    ofer ȳþa ġelāc     hæfde iċ ūhtċeare
+     [['ȳþa', 'iċ', 'ūhtċeare']] 3
+7    hwǣr mīn lēodfruma     londes wǣre
+     [['lēodfruma', 'londes']] 2
+8    ðā iċ mē fēran ġewāt     folgað sēċan
+     [['fēran', 'folgað']] 2
+9     winelēas wræċċa     for mīnre wēaþearfe
+     [['winelēas', 'wræċċa', 'wēaþearfe']] 3
+10    ongunnon þæt þæs monnes     māgas hycgan
+     [['monnes', 'māgas']] 2
+11    þurh dyrne ġeþōht     þæt hȳ tōdǣlden unc
+     [] 0
+12    þæt wit ġewīdost     in woruldrīċe
+     [['ġewīdost', 'woruldrīċe']] 2
+13    lifdon lāðlicost     ond mec longade
+     [['lifdon', 'lāðlicost', 'longade']] 3
+14     hēt mec hlāford mīn     herheard niman
+     [['hēt', 'hlāford', 'herheard']] 3
+15    āhte iċ lēofra lȳt     on þissum londstede
+     [['lēofra', 'lȳt', 'londstede'], ['āhte', 'iċ']] 5
+16    holdra frēonda     for þon is mīn hyġe ġeōmor
+     [['holdra', 'hyġe']] 2
+17    ðā iċ mē ful ġemæcne     monnan funde
+     [['mē', 'ġemæcne', 'monnan'], ['ful', 'funde']] 5
+18    heardsǣliġne     hyġeġeōmorne
+     [['heardsǣliġne', 'hyġeġeōmorne']] 2
+19     mōd mīþendne     morþor hycgendne
+     [['mōd', 'mīþendne', 'morþor']] 3
+20    blīþe ġebǣro     ful oft wit bēotedan
+     [['blīþe', 'ġebǣro', 'bēotedan']] 3
+21    þæt unc ne ġedǣlde     nemne dēað āna
+     [['ġedǣlde', 'dēað']] 2
+22    ōwiht elles     eft is þæt onhworfen
+     [['ōwiht', 'elles', 'eft', 'onhworfen']] 4
+23    is nū ġeworden     swā hit nō wǣre
+     [['nū', 'nō'], ['ġeworden', 'wǣre']] 4
+24     frēondscipe uncer     sceal iċ feor ġe nēah
+     [['frēondscipe', 'feor']] 2
+25    mīnes felalēofan     fǣhðe drēogan
+     [['felalēofan', 'fǣhðe']] 2
+26    heht mec mon wunian     on wuda bearwe
+     [['wunian', 'wuda']] 2
+27    under āctrēo     in þām eorðscræfe
+     [['āctrēo', 'eorðscræfe']] 2
+28    eald is þes eorðsele     eal iċ eom oflongad
+     [['eald', 'eorðsele', 'iċ', 'eom', 'oflongad']] 5
+29     sindon dena dimme     dūna ūphēa
+     [['dena', 'dimme', 'dūna']] 3
+30    bitre burgtūnas     brērum beweaxne
+     [['bitre', 'burgtūnas', 'brērum']] 3
+31    wīċ wynna lēas     ful oft mec hēr wrāþe beġeat
+     [['wīċ', 'wynna', 'wrāþe']] 3
+32    fromsīþ frēan     frȳnd sind on eorþan
+     [['fromsīþ', 'frēan', 'frȳnd']] 3
+33    lēofe lifġende     leġer weardiað
+     [['lēofe', 'lifġende', 'leġer']] 3
+34     þonne iċ on ūhtan     āna gonge
+     [['iċ', 'ūhtan', 'āna']] 3
+35    under āctrēo     ġeond þās eorðscrafu
+     [['āctrēo', 'eorðscrafu']] 2
+36    þǣr iċ sittan mōt     sumorlangne dæġ
+     [['sittan', 'sumorlangne']] 2
+37    þǣr iċ wēpan mæġ     mīne wræcsīþas
+     [['wēpan', 'wræcsīþas'], ['mæġ', 'mīne']] 4
+38    earfoþa fela     for þon iċ ǣfre ne mæġ
+     [['earfoþa', 'iċ', 'ǣfre']] 3
+39     þǣre mōdċeare     mīnre ġerestan
+     [['mōdċeare', 'mīnre']] 2
+40    ne ealles þæs longaþes     þe mec on þissum līfe beġeat
+     [['longaþes', 'līfe']] 2
+41    ā scyle ġeong mon     wesan ġeōmormōd
+     [['ā', 'ġeōmormōd']] 2
+42    heard heortan ġeþōht     swylċe habban sceal
+     [['heard', 'heortan', 'habban'], ['swylċe', 'sceal']] 5
+43    blīþe ġebǣro     ēac þon brēostċeare
+     [['blīþe', 'ġebǣro', 'brēostċeare']] 3
+44     sinsorgna ġedreag     sȳ æt him sylfum ġelong
+     [['sinsorgna', 'sȳ', 'sylfum']] 3
+45    eal his worulde wyn     sȳ ful wīde fāh
+     [['worulde', 'wyn', 'wīde'], ['ful', 'fāh']] 5
+46    feorres folclondes     þæt mīn frēond siteð
+     [['feorres', 'folclondes', 'frēond']] 3
+47    under stānhliþe     storme behrīmed
+     [['stānhliþe', 'storme']] 2
+48    wine wēriġmōd     wætre beflōwen
+     [['wine', 'wēriġmōd', 'wætre']] 3
+49     on drēorsele     drēogeð se mīn wine
+     [['drēorsele', 'drēogeð']] 2
+50    miċle mōdċeare     hē ġemon tō oft
+     [['miċle', 'mōdċeare', 'ġemon'], ['tō', 'oft']] 5
+51    wynlicran wīċ     wā bið þām þe sceal
+     [['wynlicran', 'wīċ', 'wā']] 3
+52    of langoþe     lēofes ābīdan
+     [['langoþe', 'lēofes']] 2
