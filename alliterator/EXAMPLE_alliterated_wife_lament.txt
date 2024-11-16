@@ -1,4 +1,4 @@
-#Example analysis with error in line 11 (to- prefix not detected)
+#Example analysis with error in line 11
 >>AlliterateLine(sent1)
 sigor ond sōðne ġelēafan  þæt iċ mid þȳs sweorde mōte
 [['sigor', 'sōðne', 'sweorde']]
